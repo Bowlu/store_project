@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tade's Toy Store</title>
+  <link rel="stylesheet" href="store.css" type="text/css"/>
+  <link rel="icon" href=""/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <a href="store.html" class="logo"><span>toy</span>Store</a>
+
+      <input type="checkbox" class="nav-menu-btn" id="nav-menu-btn">
+      <label for="nav-menu-btn" class="nav-menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <ul class="nav-menu">
+        <li><a href="store.html" class="active">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#common-bundle-pack">Packages</a></li>
+        <li><a href="#app-download">App</a></li>
+      </ul>
+      <div class="right-nav">
+        <a href="#" class="like">
+          <i class="far fa-heart"></i></i>
+          <span>0</span>
+        </a>
+        <a href="#" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span>0</span>
+        </a>
+      </div>
+    </nav>
+    <section id="search-banner">
+      <img src="/images/creative.png" class="bg-one"/>
+      <img src="/images/musical.png" class="bg-two"/>
+      <div class="search-banner-text">
+        <h1>Get your Kid a play kit here</h1>
+        <strong>#Free Delivery</strong>
+        <form action="" class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" class="search-input" placeholder="Search your favorite toy store" name="search">
+          <input type="submit" class="search-btn" value="Search">
+        </form>
+      </div>
+    </section>
+    
+    <!--Category-->
+    <section id="category">
+      <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+      </div>
+      <div class="category-container">
+        <a href="#" class="item-category">
+          <img src="/images/creative.png" alt="">
+          <span>Creative</span>
+        </a>
+        <a href="#" class="item-category">
+          <img src="/images/vehicle.png" alt="">
+          <span>Vehicles</span>
+        </a>
+        <a href="#" class="item-category">
+          <img src="/images/puzzle.png" alt="">
+          <span>Puzzle</span>
+        </a>
+        <a href="#" class="item-category">
+          <img src="/images/action_figure.png" alt="">
+          <span>Action figure</span>
+        </a>
+        <a href="#" class="item-category">
+          <img src="/images/musical.png" alt="">
+          <span>Musical</span>
+        </a>
+        <a href="#" class="item-category">
+          <img src="/images/board_games.png" alt="">
+          <span>Board games</span>
+        </a>
+        <a href="#" class="item-category">
+          <img src="/images/dolls.png" alt="">
+          <span>Dolls</span>
+        </a>
+      </div>
+    </section>
+
+    <!--Popular product-->
+    <section id="popular-product">
+      <div class="product-heading">
+        <h3>Popular Product</h3>
+        <span>All</span>
+      </div>
+      <div class="product-container">
+        <div class="product">
+          <img src="/images/disney.png" alt="vehicles">
+          <strong>Disney Pixar Cars</strong>
+          <span class="price">12$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/pj_masks.png" alt="Action figure">
+          <strong>Pj Masks</strong>
+          <span class="price">10$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/barbie.png" alt="dolls">
+          <strong>Barbie</strong>
+          <span class="price">10$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/monopoly.png" alt="monopoly">
+          <strong>Monopoly</strong>
+          <span class="price">12$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/keyboard.png" alt="keyboard">
+          <strong>Keyboard</strong>
+          <span class="price">15$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/bricks.png" alt="bricks">
+          <strong>Bricks</strong>
+          <span class="price">15$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Common bundle pack-->
+    <section id="common-bundle-pack">
+      <div class="product-heading">
+        <h3>Common Bundle Pack</h3>
+      </div>
+      <div class="product-container">
+        <div class="product">
+          <img src="/images/toy_bundle.png" alt="pack">
+          <strong>Big Pack</strong>
+          <span class="quantity">Keyboard, Doll, Bricks</span>
+          <span class="price">40$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/toy_bundle.png" alt="pack">
+          <strong>Large Pack</strong>
+          <span class="quantity">Disney Pixar Car, Barbie, Guitar</span>
+         <span class="price">30$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/toy_bundle.png" alt="pack">
+          <strong>Small Pack</strong>
+          <span class="quantity">Spiderman, Chess</span>
+          <span class="price">20$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div> 
+        <div class="product">
+          <img src="/images/toy_bundle.png" alt="pack">
+          <strong>Big Pack</strong>
+          <span class="quantity">Pj Masks, Bricks, Xylophone</span>
+          <span class="price">40$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/toy_bundle.png" alt="pack">
+          <strong>Large Pack</strong>
+          <span class="quantity">Barbie, Monopoly, Disney Pixar Car</span>
+         <span class="price">35$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product">
+          <img src="/images/toy_bundle.png" alt="pack">
+          <strong>Small Pack</strong>
+          <span class="quantity">Chess, Bricks</span>
+          <span class="price">23$</span>
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add To Cart
+          </a>
+          <a href="#" class="like">
+            <i class="far fa-heart"></i>
+          </a>
+        </div> 
+    </section>
+
+    <!--Clients-->
+    <section id="clients">
+      <div class="client-heading">
+        <h3>Testimonials</h3>
+      </div>
+      <div class="client-container">
+        <div class="client">
+          <div class="client-profile">
+            <img src="/images/client4.jpg" alt="client">
+            <div class="profile-text">
+              <strong>James Mcavoy</strong>
+              <span>Customer</span>
+            </div>
+          </div>
+          <!--Client's rating-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--comments-->
+          <div class="comment">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium totam commodi explicabo ipsam et corporis, neque accusamus est, ab ea! Architecto magni totam consequatur est quia error. Impedit, iste?</p>
+          </div>
+        </div>
+
+        <div class="client">
+          <div class="client-profile">
+            <img src="/images/client2.jpg" alt="client">
+            <div class="profile-text">
+              <strong>Lucy Mcavoy</strong>
+              <span>Customer</span>
+            </div>
+          </div>
+          <!--Client's rating-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--comments-->
+          <div class="comment">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium totam commodi explicabo ipsam et corporis, neque accusamus est, ab ea! Architecto magni totam consequatur est quia error. Impedit, iste?</p>
+          </div>
+        </div>
+
+        <div class="client">
+          <div class="client-profile">
+            <img src="/images/client3.jpg" alt="client">
+            <div class="profile-text">
+              <strong>Avo Alex</strong>
+              <span>Customer</span>
+            </div>
+          </div>
+          <!--Client's rating-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--comments-->
+          <div class="comment">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium totam commodi explicabo ipsam et corporis, neque accusamus est, ab ea! Architecto magni totam consequatur est quia error. Impedit, iste?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="#" ><span>toy</span>Store</a>
+        <div class="social">
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="links">
+        <strong>Product</strong>
+        <ul>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Packs</a></li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <strong>Category</strong>
+        <ul>
+          <li><a href="#">Creative</a></li>
+          <li><a href="#">Vehicles</a></li>
+          <li><a href="#">Puzzle</a></li>
+          <li><a href="#">Action figure</a></li>
+          <li><a href="#">Musical</a></li>
+          <li><a href="#">Board games</a></li>
+          <li><a href="#">Dolls</a></li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <strong>Contact</strong>
+        <ul>
+          <li><a href="#">Phone: +234 *****</a></li>
+          <li><a href="#">Email: store@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
